@@ -1,0 +1,47 @@
+h3{
+    color:rgb(238,255,7);
+}
+
+h4{
+    color:rgb(243,0,0);
+}
+.header{
+    background:linear-gradient(to right,yellow,red);
+    display:flex;
+    justify-content: space-evenly;
+
+
+}
+h2,p{text-align: center;
+    color:white;}
+
+.Menu{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+    color: white;
+
+    
+}
+.grid{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+    color:tomato;
+}
+a:link{
+    color:tomato;
+}
+
+
+a:visited{
+    color:peru;
+}
+
+.Item{
+    position:relative;
+}
+
+.Item:hover {
+    opacity:0.5;
+}
